@@ -1,6 +1,6 @@
 # Ising
-This program computes the 2D Ising model using the MT in GSL for 
-random number generation and EGGX for graphics. 
-To compile the code, type “make”.
+This program calculates the 2D Ising model using the Mersenne Twister 
+in GSL for random number generation and EGGX for graphics. Compile the 
+code using the ‘egg’ command: $ egg ising.c -lgsl -lgslcblas
 
 kazume.nishidate@gmail.com
