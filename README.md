@@ -6,3 +6,6 @@ This program calculates the 2D Ising model using the Mersenne Twister in GSL for
 $ egg ising.c -lgsl -lgslcblas
 
 email <kazume.nishidate@gmail.com>
+
+
+![](images/fig1.jpg)
