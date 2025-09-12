@@ -37,8 +37,10 @@ int main(void){
   for(k=0;k<STEPS;k++){
     i = (int)(X_MAX*ran1());
     j = (int)(Y_MAX*ran1());
-    iu = i+1; ju = j+1;
-    id = i-1; jd = j-1;
+    iu = i+1;
+    ju = j+1;
+    id = i-1;
+    jd = j-1;
     if(id<0) id=X_MAX-1; if(iu==X_MAX) iu=0;      
     if(jd<0) jd=Y_MAX-1; if(ju==Y_MAX) ju=0;
 
